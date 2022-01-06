@@ -15,6 +15,6 @@ for file in os.listdir(os.getcwd()):
         master_df = master_df.append(pd.read_csv(file))
 
 
-
+#Author: Hardik Devani
 
 # master_df.to_csv('mastre file.csv', index=False)
